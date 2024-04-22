@@ -1,0 +1,236 @@
+html, body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    overflow: hidden;
+  }
+
+  .black-box {
+    background-color: black;
+    padding: 20px; 
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: white;
+  }
+  
+  
+  .logo {
+    width: 70px;
+    height: 35px;
+    left: 40px;
+    top: 33px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 400;
+    word-wrap: break-word;
+    -ms-word-wrap: break-word;
+    text-decoration: none;
+  }
+  
+  .logo,
+  .container h2,
+  .user-type,
+  .submit-btn {
+    position: absolute;
+    z-index: 10; 
+  }
+
+  .user-type {
+    width: 350px;
+    height: 50px;
+    left: 200px;
+    top: 370px;
+    position: absolute;
+    font-size: 18px;
+    border-radius: 20px; 
+    text-align: center;
+  }
+  
+  .submit-btn {
+    width: 100px;
+    height: 35px;
+    border-radius: 25px; 
+    background-color: #5e5e5e; 
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 323px;
+    top: 450px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .submit-btn:hover {
+    background-color: #11cf00; 
+  }
+  
+  .circle1 {
+    width: 301px;
+    height: 300px;
+    left: 1686px;
+    top: 700px;
+    position: absolute;
+    background: #FF0000;
+    border-radius: 9999px;
+    z-index: 1;
+    -ms-border-radius: 9999px;
+  }
+  
+  
+  .circle2 {
+    width: 223px;
+    height: 208px;
+    left: 1750px;
+    top: 530px;
+    position: absolute;
+    background: #EBFF00;
+    border-radius: 9999px;
+    z-index: 2;
+    -ms-border-radius: 9999px;
+  }
+  
+  
+  .circle3 {
+    width: 188px;
+    height: 183px;
+    left: 1605px;
+    top: 622px;
+    position: absolute;
+    background: #1300DC;
+    border-radius: 9999px;
+    z-index: 3;
+    -ms-border-radius: 9999px;
+  }
+  
+  
+  .circle4 {
+    width: 218px;
+    height: 212px;
+    left: 1530px;
+    top: 785px;
+    position: absolute;
+    background: #EC01E7;
+    border-radius: 9999px;
+    z-index: 4;
+    -ms-border-radius: 9999px;
+  }
+  
+  
+  .circle7 {
+    width: 35px;
+    height: 34px;
+    left: 1775px;
+    top: 430px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 9999px;
+    z-index: 5;
+    -ms-border-radius: 9999px;
+  }
+  
+  
+  .circle8 {
+    width: 45px;
+    height: 40px;
+    left: 1510px;
+    top: 583px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 9999px;
+    z-index: 6;
+    -ms-border-radius: 9999px;
+  }
+  
+  
+  .circle9 {
+    width: 25px;
+    height: 23px;
+    left: 1520px;
+    top: 750px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 9999px;
+    z-index: 7;
+    -ms-border-radius: 9999px;
+  }
+  
+  
+  .circle10 {
+    width: 160px;
+    height: 150px;
+    left: 1420px;
+    top: 817px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 9999px;
+    z-index: 8;
+    -ms-border-radius: 9999px;
+  }
+  
+  
+  .circle11 {
+    width: 90px;
+    height: 90px;
+    left: 1695px;
+    top: 565px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 9999px;
+    z-index: 9;
+    -ms-border-radius: 9999px;
+  }
+  
+  .black-square {
+    width: 1700px; 
+    height: 1000px; 
+    background-color: black; 
+    position: absolute;
+    top: 50%; 
+    left: 1; 
+    transform: translate(-50%, -50%); 
+  }
+  
+  .container h2 {
+    position: absolute;
+    top: 250px; 
+    left: 249px; 
+    font-family: Inter, sans-serif;
+    font-weight: 200;
+    color: #ffffff; 
+}
+  
+.back-link {
+    position: absolute;
+    font-weight: 200;
+    bottom: 20px;
+    left: 50px;
+    transform: translateX(-50%);
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    color: #ffffff; 
+    text-decoration: none;
+    z-index: 11;
+  }
+  
+  .signup-link {
+    position: absolute;
+    top: 530px;
+    left: 370px;
+    transform: translateX(-50%);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #808080;
+    text-decoration: underline;
+    z-index: 11; 
+}
